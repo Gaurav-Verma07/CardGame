@@ -11,7 +11,12 @@ export const Container = styled.div`
   &:hover {
     transform: scale(1.1);
   }
+  @media (max-width: 37.5em) {
+    width: 17rem;
+    height: 17rem;
+  }
 `;
+
 //transition: all 0.5s ease;
 //box-shadow: 1rem 1rem 3rem rgba(55, 255, 0, 0.3) inset;
 export const Block1 = styled.div`
