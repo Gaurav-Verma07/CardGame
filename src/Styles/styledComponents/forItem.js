@@ -24,7 +24,7 @@ export const Block1 = styled.div`
   background-image: url("${img0}");
   background-position: center;
   background-size: cover;
-  border: 3px solid #fff;
+  border: 1px solid #fff;
   border-radius: 5px;
   position: absolute;
   top: 0;
@@ -39,7 +39,7 @@ export const Block1 = styled.div`
 export const Block2 = styled.div`
   background-image: url(${(props) => props.img});
   background-position: center;
-  border: 3px solid #fff;
+  border: 1px solid #fff;
   border-radius: 5px;
   background-size: cover;
   position: absolute;

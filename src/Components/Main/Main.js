@@ -26,9 +26,11 @@ const Main = (props) => {
         });
         filterChoice();
       } else {
-        setTimeout(() => {
-          filterChoice();
-        }, 1000);
+        if (cardOne !== cardTwo) {
+          setTimeout(() => {
+            filterChoice();
+          }, 1000);
+        }
       }
     }
   }, [cardOne, cardTwo]);

@@ -21,7 +21,7 @@ const gameReducer = (state, action) => {
     const ran = RandomId();
     //console.log("game changes", ran);
 
-    return { ...state, newGame: true, randomId: ran };
+    return { ...state, newGame: true, randomId: ran, totalMoves: 0 };
   }
 
   if (action.type === "NEW_MOVE") {
